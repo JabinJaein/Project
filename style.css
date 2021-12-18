@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+
+  box-sizing: border-box;
+
+
+
+}
+.header{
+  background-color: #E1E5EA;
+}
+
+
+.header h3 {
+  margin: auto;
+  font-size: 16px;
+
+  color:  #A7BBC7;
+  position: relative;
+}
+
+.white{
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #FAF3F3;
+}
+.content{
+  padding: 1px;
+  background-color: white;
+  margin: 10px 380px 0px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px 3px #EDEEF7;
+
+
+
+}
+
+.rectangle{
+   
+  padding: 10px;
+  position: static;
+  width: 51px;
+  height: 48px;
+
+  margin-left: 220px;
+  margin-top: 10px;
+}
+
+.one{
+  position:absolute;
+  background-color: #3766E8;
+  padding: 10px 10px 10px 1px;
+   height: 24px;
+  border-radius: 100px;
+  top: 142px;
+  left:615px;
+  transform: rotate(-30deg);
+
+}
+
+.two{
+  position:absolute;
+  background-color: #3766E8;
+padding: 10px 10px 10px 1px;
+
+  border-radius: 100px;
+  height: 44px;
+  left:630px;
+
+  top:120px ;
+  transform: rotate(-30deg);
+
+}
+
+.three{
+  position:absolute;
+  background-color: #3766E8;
+  padding: 10px 10px 10px 1px;
+
+  border-radius: 100px;
+  left:645px;
+  top: 122px;
+  transform: rotate(-30deg);
+}
+
+ h1{
+   padding: 5px;
+  font-family: Roboto;
+  color: black;
+  font-size: 35px;
+  text-align: center;
+}
+
+h4{
+  padding: 5px;
+  font-family: Roboto;
+  color:#655b5b;
+  text-align: center;
+}
+
+.details{
+
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+label {
+  padding-top: 5px;
+  margin-bottom: 1px;
+  display: block;
+}
+
+input[type=text] {
+  font-family: Roboto;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+select{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+input[type=button]{
+
+  background-color: #F0F0F0;
+  align-items: center;
+  margin-right: 10px;
+  padding-top:5px;
+    border: 1px solid #ccc;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 2px;
+  border-color:#F0F0F0;
+
+}
+
+input[type=button]:hover{
+  background-color: #3766E8;
+}
+
+
+button{
+  background-color: #3766E8;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.footer{
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-color: #FAF3F3;
+  text-align: center;
+  color: #525257b0;
+}
